@@ -102,3 +102,27 @@ body {
   color: #ffffff;
   border: 2px solid #f7f7f7;
 }
+
+.icone {
+  width: 30px;
+  height: 30px;
+  /*margin-right: 30px;
+  margin-left: 30px;*/
+  border-radius: 10px;
+  /*só funciona sé tiver o "<ul>" antes e "</ul>" depois, e o "list-style: none;" tem que estar dentro do "ul"*/
+  list-style: none;
+}
+
+#iconeGrupo {
+  /*botar as coisas na horizontal*/
+  display: flex;
+}
+
+#github {
+  margin-left: 10px;
+}
+
+#instagram {
+  width: 50px;
+  height: 30px;
+}
